@@ -3,10 +3,17 @@
 \begin{table}
     \centering
     \caption{routines: Mathematical functions}
-    \begin{tabular}{l}
+    \begin{tabular}{ll}
         \hline
-        \nameref{prod} \\
+        \nameref{prod} & \nameref{setdiff1d} \\
         \hline
     \end{tabular}
 \end{table}
 \subsection{prod\label{prod}}
+\section{Set routines}
+\subsection{setdiff1d\label{setdiff1d}}
+\verb|numpy.setdiff1d(ar1, ar2, assume_unique=False)|
+
+Find the set difference of two arrays.
+
+Return the unique values in \textit{ar1} that are not in \textit{ar2}.
