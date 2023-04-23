@@ -25,3 +25,10 @@ Tex/sklearn/linear_model.aux
 Tex/sklearn/utils.aux
 Tex/sklearn/svm.aux
 Tex/sklearn/cluster.aux
+*.aux
+*.log
+*.toc
+*.out
+*.synctex.gz
+_minted-funs
+_minted-main
